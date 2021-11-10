@@ -1,13 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from 'react'; // Official React Core Library 
+import ReactDOM from 'react-dom'; // DOM Rendering Package 
+import 'bootstrap/dist/css/bootstrap.css';  // bootstrap css
+
+import './index.css'; // app wide styles
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
