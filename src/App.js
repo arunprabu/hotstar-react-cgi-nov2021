@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Program from './components/Program/Program';
 import ChannelList from './containers/ChannelList/ChannelList';
+import TrendingShows from './containers/TrendingShows/TrendingShows';
 
 // Ideal comp for us to have the layout
 // js 
@@ -28,9 +29,12 @@ function App() {
         </Program>
 
         <hr />
-        <h2>Channel List | Class Comp, 
-          States and Events Demo</h2>
+        <h2>Channel List | Class Comp, States and Events Demo</h2>
         <ChannelList />
+
+        <hr />
+        <h2>Trending Shows | Conditional Rendering, Lists and Keys</h2>
+        <TrendingShows day="today"/>
       </div>
       
       <Footer></Footer>
